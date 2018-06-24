@@ -3,7 +3,7 @@ package org.doblander.lab.didemo.controllers;
 import org.doblander.lab.didemo.services.GreetingServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PropertyInjectedControllerTest {
 
