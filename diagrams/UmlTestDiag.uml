@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="122.5">org.doblander.lab.didemo.services.PrimaryGreetingService</node>
+    <node x="426.0" y="122.5">org.doblander.lab.didemo.services.PrimaryGermanGreetingService</node>
+    <node x="213.0" y="122.5">org.doblander.lab.didemo.services.SetterGreetingService</node>
+    <node x="908.0" y="122.5">org.doblander.lab.didemo.services.ConstructorGreetingService</node>
+    <node x="408.0" y="230.0">org.doblander.lab.didemo.controllers.MyController</node>
+    <node x="0.0" y="230.0">org.doblander.lab.didemo.controllers.ConstructorInjectedController</node>
+    <node x="1148.0" y="122.5">org.doblander.lab.didemo.services.PrimarySpanishGreetingService</node>
+    <node x="717.0" y="230.0">org.doblander.lab.didemo.DiDemoApplication</node>
+    <node x="569.5" y="0.0">org.doblander.lab.didemo.services.GreetingService</node>
+    <node x="685.0" y="111.0">org.doblander.lab.didemo.services.GreetingServiceImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.doblander.lab.didemo.services.SetterGreetingService" target="org.doblander.lab.didemo.services.GreetingService">
+      <point x="0.0" y="-25.5" />
+      <point x="309.5" y="81.0" />
+      <point x="617.75" y="81.0" />
+      <point x="-48.25" y="25.5" />
+    </edge>
+    <edge source="org.doblander.lab.didemo.services.GreetingServiceImpl" target="org.doblander.lab.didemo.services.GreetingService">
+      <point x="0.0" y="-37.0" />
+      <point x="786.5" y="91.0" />
+      <point x="682.0833333333334" y="91.0" />
+      <point x="16.08333333333337" y="25.5" />
+    </edge>
+    <edge source="org.doblander.lab.didemo.services.ConstructorGreetingService" target="org.doblander.lab.didemo.services.GreetingService">
+      <point x="0.0" y="-25.5" />
+      <point x="1018.0" y="81.0" />
+      <point x="714.25" y="81.0" />
+      <point x="48.25" y="25.5" />
+    </edge>
+    <edge source="org.doblander.lab.didemo.services.PrimaryGreetingService" target="org.doblander.lab.didemo.services.GreetingService">
+      <point x="0.0" y="-25.5" />
+      <point x="96.5" y="71.0" />
+      <point x="585.5833333333334" y="71.0" />
+      <point x="-80.41666666666663" y="25.5" />
+    </edge>
+    <edge source="org.doblander.lab.didemo.services.PrimaryGermanGreetingService" target="org.doblander.lab.didemo.services.GreetingService">
+      <point x="0.0" y="-25.5" />
+      <point x="545.5" y="91.0" />
+      <point x="649.9166666666666" y="91.0" />
+      <point x="-16.08333333333337" y="25.5" />
+    </edge>
+    <edge source="org.doblander.lab.didemo.services.PrimarySpanishGreetingService" target="org.doblander.lab.didemo.services.GreetingService">
+      <point x="0.0" y="-25.5" />
+      <point x="1268.0" y="71.0" />
+      <point x="746.4166666666666" y="71.0" />
+      <point x="80.41666666666663" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="494.5" y="128.5" />
+  <SelectedNodes>
+    <node>org.doblander.lab.didemo.controllers.ConstructorInjectedController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
