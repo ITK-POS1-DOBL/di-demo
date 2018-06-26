@@ -4,7 +4,6 @@ import org.doblander.lab.didemo.controllers.ConstructorInjectedController;
 import org.doblander.lab.didemo.controllers.MyController;
 import org.doblander.lab.didemo.controllers.PropertyInjectedController;
 import org.doblander.lab.didemo.controllers.SetterInjectedController;
-import org.doblander.lab.didemo.services.PrimaryGreetingService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

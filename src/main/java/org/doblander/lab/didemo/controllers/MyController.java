@@ -1,7 +1,6 @@
 package org.doblander.lab.didemo.controllers;
 
 import org.doblander.lab.didemo.services.GreetingService;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Controller;
 
 @Controller
